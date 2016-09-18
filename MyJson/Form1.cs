@@ -39,7 +39,7 @@ namespace MyJson
     {
       this.lstPerson = JsonConvert.DeserializeObject<List<clPerson>>(File.ReadAllText(destPath));
       clPerson a = new clPerson();
-      a.Name = "asf";
+      a.Name = "asf";,
       lstPerson.Add(a);
       DoSerialize();
     }
